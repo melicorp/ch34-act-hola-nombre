@@ -1,0 +1,11 @@
+:root{
+    --blue1: #6495ed;
+    --blue2: #afeeee;
+}
+
+body{
+    /* fondo con degradado lineal */
+    background: linear-gradient(180deg,var(--blue2)0%,var(--blue1)100%);
+    background-attachment: fixed; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
